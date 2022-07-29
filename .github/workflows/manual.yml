@@ -27,5 +27,5 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      working-directory: /home/ubuntu
+      working-directory: /var/www/html
       run: git pull
